@@ -1,0 +1,30 @@
+@baseColor: #515a6e;
+@primary-color: #2d8bf0;
+@text-color: #585E6B;
+@baseTetx: #3b3b3b;
+@warning-color: #ff653f;
+
+
+.flex(@content: flex-start, @wrap: nowrap) {
+    display: flex; justify-content: @content; align-items: center; flex-wrap: @wrap;
+  }
+  
+
+.pageWrap {
+    background: #fff;
+    padding: 20px 30px 50px;
+    border: 1px solid rgba(186, 185, 185, .5);
+    border-radius: 4px;
+    box-shadow: 0 9px 14px 0 rgba(52,59,102,0.20);
+    height: 100%;
+}
+
+.h24 {
+  height: 24px; line-height: 24px;
+}
+.h24h {
+  line-height: 24px; 
+}
+.centerflex {
+  flex-direction: column; justify-content: center; display: flex; height: 100%;
+}
